@@ -1,7 +1,6 @@
 // import { styled } from 'styled-components';
 
-import logo from '../../assets/logo.png';
-import classes from './Header.module.css';
+
 
 // const StyledHeader = styled.header`
 //   display: flex;
@@ -44,6 +43,10 @@ import classes from './Header.module.css';
 //   }
 // }
 // `
+
+
+import logo from '../../assets/logo.png';
+import classes from './Header.module.css';
 
 export default function Header() {
   return (
