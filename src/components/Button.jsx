@@ -6,7 +6,7 @@ const Button = styled.button`
   text-transform: uppercase;
   border-radius: 0.25rem;
   color: #1f2937;
-  background-color: #f0b322;
+  background-color: #deb40b;
   border-radius: 6px;
   border: none;
 
