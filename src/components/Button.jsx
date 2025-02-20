@@ -1,6 +1,6 @@
 import {styled} from 'styled-components'
 
-const Button = styled.button`
+const ButtonStyle = styled.button`
   padding: 1rem 2rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -15,4 +15,8 @@ const Button = styled.button`
 }
 `
 
-export default Button;
+export default function Button ({children, ...props}){
+    return (
+        <ButtonStyle {...props}>{children}</ButtonStyle>
+    )
+}
